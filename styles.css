@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ul > li{
+    border: none !important;
+}
+#ul-list{
+    display: flex !important;
+    flex-direction: row;
+}
+#logo{
+    width:fit-content;
+    height: 100%;
+    border: none;
+}
+a{
+    text-decoration: none !important;
+}
+nav ul li{
+    font-size: 40px;
+}
+nav ul li:hover{
+    background-color: pink;
+}
+#div_Carousel{
+    height: 90vh;
+}
+#tamanho_Carousel{
+    width: fit-content;
+    height: 100%;
+}
+.cartoes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15vh 0 25vh 0;
+}
+#card_size{
+    height: 275px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#img_card_size{
+    height: 100%;
+    width: fit-content;
+    
+}
+.bolinhas{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 20vh 0;
+    text-align: center ;
+}
+#ball_size{
+    border: none;
+}
+#img_ball_size{
+    border-radius: 50%;
+    height: 50vh;
+}
+.form{
+    padding: 0 20vw;
+}
+#contato{
+    margin: 10vh 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.letra_contato{
+    width: 50%; 
+    text-align: center;
+}
+.link_externo{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.link_externo a{
+    width: 10%
+}
+.link_externo a img{
+    width: 100%;
+
+}
